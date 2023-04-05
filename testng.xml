@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Travellers">
+    <test name="Choose parameters test" thread-count="3" parallel="methods">
+        <classes>
+            <class name="testy.ChooseParametersTest"></class>
+        </classes>
+    </test>
+        <test name="Regiaster test" thread-count="3" parallel="methods">
+            <classes>
+        <class name="testy.RegisterTest"></class>
+            </classes>
+        </test>
+</suite>
